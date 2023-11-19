@@ -1,0 +1,413 @@
+*
+{
+ padding: 0;
+ margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden ;
+}
+
+.navbar-toggler
+{
+    color:rgb(119, 102, 102);
+    
+}
+#header
+{
+    background-image: url(banner.jpg);
+    
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav  li a
+{
+    float: right;
+    
+    /* background-color: aqua; */
+    color: rgb(0, 247, 255)!important;
+    position: relative;
+    top: -60px;
+}
+.navbar-nav  li a:hover
+{
+    font-size: 18px;
+ /* text-decoration: 2px solid red overline underline; */
+ 
+ color: black!important;
+ background: white;
+ border-radius: 20px;
+ padding-left: 20px;
+ padding-right: 20px;
+ font-weight: bold;
+
+   
+}
+.navbar-brand img
+{
+    width: 150px;
+    margin-left: 30px;
+}
+nav #logo
+{
+    width: 130px;
+    
+    margin-left: 30px;
+}
+.navbar-toggler
+{
+    border: none!important;
+    outline: none !important;
+    position: relative;
+    top: -30px;
+}
+nav #menu
+{
+    width: 30;
+    font-size: 26px;
+}
+
+
+.welcome
+{
+    padding: 50px 100px !important;
+    
+    margin-top: -140px;
+    background-color:aquamarine;
+    box-shadow: 0 0 20px 7px rgba(0,0,0);
+}
+.welcome h1
+{
+    color:black;
+}
+.welcome h3
+{
+    color:black;
+}
+.welcome .home-btn a
+{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color:aqua;
+    background-color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.welcome .home-btn 
+{
+   padding-top: 20px;
+}
+.welcome .home-btn a:hover
+{
+   
+   color: red;
+   font-size: 25px;
+}
+/*--------------------about us---------------------------*/
+#about
+{
+    padding: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6
+{
+    padding: 20px 10px;
+}
+#about .h1
+{
+    padding: 20px auto;
+}
+/*----------------------services----------------------------------*/
+#services
+{
+    background-color:aquamarine;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#services .col-md-4
+{
+    padding: 20px;
+}
+#services .col-md-4 h2
+{
+    padding: 5px;
+}
+#services .col-md-4 img
+{
+    width: 50px;
+}
+#services .col-md-4 p
+{
+    padding: 5px;
+    text-align: justify;
+}
+/*------------------Features---------------------*/
+#Features
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(feature-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:rgb(255, 255, 255) ;
+}
+#Features h3{
+    color: red;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+
+}
+#Features h3:hover{
+    font-size: 37px;
+    cursor: pointer;
+}
+#Features .col-md-6
+{
+    padding: 20px;
+}
+.feature-box
+{
+    height: 120px;
+}
+.feature-box .feature-left
+{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feature-box .feature-right
+{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feature-box .feature-right h3
+{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+.feature-box .feature-right p
+{
+    
+    padding-left: 15px;
+    text-align: left;
+}
+/*----------------------testomonials------------------------------*/
+#testimonials
+{
+ 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonials .col-md-4
+{
+    padding: 10px 30px;
+}
+#testimonials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid snow;
+}
+.review
+{
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    background-color: aquamarine;
+}
+#testimonials h1
+{
+    margin-bottom: 20px;
+    color: blue;
+}
+#testimonials p
+{
+    padding-bottom: 30px;
+    
+}
+#testimonials span
+{
+    color: blue;
+    
+}
+/*--------------------------------Subscribe------------------------*/
+.subscribe
+{
+    padding: 50px 20px;
+    background-color: aquamarine;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgb(0,0,0,0.2);
+    margin-bottom: -160px;
+    border-radius: 30px;
+}
+.subscribe .input-group
+{
+    border-radius: 30px;
+    background: whitesmoke;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.subscribe .input-group:hover
+{
+   
+    max-width: 600px;
+  
+}
+.subscribe .form-control
+{
+    border:none;
+    background:transparent;
+}
+.subscribe .form-control:focus
+{
+    box-shadow:none;
+    background:transparent;
+}
+.subscribe .input-group-append
+{
+    background-image:linear-gradient(to right, rgb(235, 14, 14), rgb(73, 5, 5));
+    border-radius: 30px;
+
+}
+.subscribe .input-group-append:hover
+{
+    background-image:linear-gradient(to right, rgb(73, 5, 5) ,rgb(235, 14, 14) );
+    color: blanchedalmond;
+    border-radius: 30px;
+
+}
+.subscribe .input-group-text
+{
+    background:transparent;
+    border:none;
+    color: rgb(243, 243, 243);
+}
+.subscribe .input-group-text:hover
+{
+   
+    color: rgb(243, 243, 243);
+}
+.subscribe .btn:focus
+{
+    box-shadow: none;
+}
+
+
+#login-3 a{
+    font-size: 30px;
+}
+/*------------------------footer------------------------*/
+#footer
+{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: black;
+    color:rgb(240, 255, 255);
+    
+}
+.footer-logo
+{
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    position: relative;
+    left: 90px;
+}
+.footer-logo:hover
+{
+    width: 110px;
+    cursor: pointer;
+   
+}
+#footer h4
+{
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    
+
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 0px;
+    padding-top: 9px;
+    color: rgb(207, 15, 121);
+    
+    
+}
+#footer h4:hover
+{
+  /* text-decoration: 2px solid wheat underline,overline; */
+ text-decoration: 2px solid rgb(247, 247, 247)  underline;
+ font-size: 35px;
+ padding-bottom: 7px;
+ margin-bottom: 9px;
+
+    
+}
+#footer #footercol{
+    position: relative;
+    left:-30px;
+}
+#footer p
+{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 40px;
+}
+#footer p:hover
+{
+    color: red;
+
+font-size: 17px;
+cursor: pointer;
+    
+}
+#footer hr
+{
+    color: wheat;
+    height: 5px;
+}
+#footer .credits{
+    position: relative;
+    left: 900px;
+}
+#footer .credits h5{
+    font-family: 'Akronim', cursive;
+    color: rgb(241, 35, 197);
+    font-size: 39px;
+}
+#footer .credits h6{
+    font-family: 'Playfair Display', serif;
+    color: rgb(248, 248, 248);
+    
+}
+#footer .credits h6:hover{
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+    
+}
+
+/* --------------------------footer 2---------------- */
+footer{
+    background-color: black;
+color: white;
+padding: 10px 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+text-align: center;
+}
