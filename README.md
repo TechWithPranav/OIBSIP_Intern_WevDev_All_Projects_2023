@@ -5,3 +5,18 @@ Check out my latest creations! This repository features a landing page, a sleek 
 ================ For overall execution just watch the video ===================
 
                   https://www.youtube.com/watch?v=u8PHsYnSSCU
+
+
+================== checkout the Websites ===============
+
+1. landing page
+
+        https://pranavkolhe.github.io/landing_page2/
+
+2. portfolio
+
+        https://pranavkolhe.github.io/portfolio_pranav/
+
+3. temparature converter
+
+        https://pranavkolhe.github.io/temparature_converter/
